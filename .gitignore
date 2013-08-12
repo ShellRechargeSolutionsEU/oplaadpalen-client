@@ -1,0 +1,16 @@
+# Maven
+target
+
+# Idea
+.idea/
+*.iml
+*.ipr
+*.iws
+.buildpath
+*.ids
+
+#JRebel
+rebel.xml
+
+# Mac
+.DS_Store
