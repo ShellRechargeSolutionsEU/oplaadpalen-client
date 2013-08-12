@@ -27,6 +27,10 @@
             <url>http://nexus.thenewmotion.com/content/repositories/releases-public</url>
         </repository>
         <repository>
+            <id>spray</id>
+            <url>http://repo.spray.io</url>
+        </repository>
+        <repository>
             <id>spray-nightlies</id>
             <url>http://nightlies.spray.io</url>
         </repository>
