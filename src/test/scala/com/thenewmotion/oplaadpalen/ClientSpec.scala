@@ -31,10 +31,10 @@ class ClientSpec extends SpecificationWithJUnit {
       }
     }
     "get owners" in new ClientScope {
-      ?(OwnersReq).owners must be not empty
+      ?(OwnersReq).owners must not beEmpty
     }
     "get availability" in new ClientScope {
-      ?(AvailabilityReq).availabilities must be not empty
+      ?(AvailabilityReq).availabilities must not beEmpty
     }
   }
 
